@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SeaVpn — Защити себя, как пират!</title>
+  <style>
+    /* Общие стили */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to bottom, #87CEEB, #1E90FF);
+      color: #003366;
+      min-height: 100vh;
+      padding-bottom: 2rem;
+    }
+
+    /* Шапка */
+    header {
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .logo {
+      font-size: 2.2rem;
+      font-weight: bold;
+      color: #FFD700;
+      text-shadow: 2px 2px 0 #000;
+    }
+
+    /* Главный экран */
+    .hero {
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .hero h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 1.5rem;
+      color: #FFF;
+    }
+
+    .btn {
+      background: #FF6347;
+      color: white;
+      border: none;
+      padding: 0.8rem 2rem;
+      font-size: 1.2rem;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 4px 0 #CC4C33;
+      transition: transform 0.1s;
+    }
+
+    .btn:active {
+      transform: translateY(4px);
+      box-shadow: none;
+    }
+
+    /* Преимущества */
+    .features {
+      background: white;
+      border-radius: 20px 20px 0 0;
+      padding: 2rem 1rem;
+      margin-top: 2rem;
+    }
+
+    .features h2 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #003366;
+    }
+
+    .feature-item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1.2rem;
+      padding: 0.8rem;
+      background: #E6F7FF;
+      border-radius: 15px;
+    }
+
+    .feature-icon {
+      font-size: 1.8rem;
+      margin-right: 1rem;
+      color: #20B2AA;
+    }
+
+    /* Футер */
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      color: white;
+      font-size: 0.9rem;
+    }
+
+    /* Адаптивность */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 1.6rem;
+      }
+      .hero p {
+        font-size: 1rem;
+      }
+      .btn {
+        font-size: 1rem;
+        padding: 0.7rem 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">🌊 SeaVpn</div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Плыви в интернете без страха!</h1>
+      <p>Мультяшный, быстрый и безопасный VPN для настоящих морских волков 🏴‍☠️</p>
+      <button class="btn" onclick="alert('Скачать SeaVpn!')">Скачать бесплатно</button>
+    </section>
+
+    <section class="features">
+      <h2>Почему выбирают SeaVpn?</h2>
+      <div class="feature-item">
+        <span class="feature-icon">🛡️</span>
+        <div><strong>Полная анонимность</strong> — никто не узнает, где ты!</div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">⚡</span>
+        <div><strong>Супер-скорость</strong> — как на паруснике с попутным ветром!</div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🐠</span>
+        <div><strong>Дружелюбный дизайн</strong> — даже осьминог разберётся!</div>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🌍</span>
+        <div><strong>Серверы по всему миру</strong> — от Карибов до Тихого океана!</div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 SeaVpn. Все права защищены пиратами.
+  </footer>
+</body>
+</html>
